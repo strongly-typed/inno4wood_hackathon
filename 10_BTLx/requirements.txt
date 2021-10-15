@@ -1,0 +1,4 @@
+lxml
+xsdata[cli]
+matplotlib
+numpy

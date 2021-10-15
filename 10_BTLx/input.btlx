@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BTLx xmlns="http://www.design2machine.com" Version="1.1" Language="de" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.design2machine.com http://www.design2machine.com/btlx/btlx_11.xsd">
+	<FileHistory>
+		<InitialExportProgram CompanyName="SEMA GmbH" ProgramName="SEMA" ProgramVersion="SEMA Holzbausoftware V22-1 (de) Build 10380" ComputerName="KEVINKESSLA41AB" UserName="kevinkesslau" FileName="D:\SEMAE000.BTLX" Date="2021-10-15" Time="15:36:00" Comment=""/>
+	</FileHistory>
+	<Project Name="Hackathon SPW" Number="001" Section="" ListName="" Customer="" Architect="" Editor="" SourceFile="C:\SEMA\SEMAV221DE\PROJEKTE\221BV001\" ProcessingQuality="automatic">
+		<Parts>
+			<Part SingleMemberNumber="0" AssemblyNumber="" OrderNumber="0" Designation="Dck-Balken" Annotation="100" Storey="BG2" Group="00" Package="" Material="" TimberGrade="" QualityGrade="" Count="1" Length="4200" Height="250" Width="200" PlaningLength="0" Weight="0" ProcessingQuality="automatic" StoreyType="ceiling" ElementNumber="00" Layer="0" ModuleNumber="BST = 00000;;">
+				<Transformations>
+					<Transformation GUID="{952A724D-AE22-4066-8609-7D8CB31F20FC}">
+						<Position>
+							<ReferencePoint X="0" Y="200" Z="-250"/>
+							<XVector X="1" Y="0" Z="0"/>
+							<YVector X="0" Y="0" Z="1"/>
+						</Position>
+					</Transformation>
+				</Transformations>
+				<GrainDirection X="1" Y="0" Z="0" Align="no"/>
+				<ReferenceSide Side="3" Align="no"/>
+				<Processings>
+					<JackRafterCut Name="SCHIFTERSCHNITT" Process="yes" Priority="0" ProcessID="1" ReferencePlaneID="2">
+						<Orientation>start</Orientation>
+						<StartX>0</StartX>
+						<StartY>0</StartY>
+						<StartDepth>0</StartDepth>
+						<Angle>90</Angle>
+						<Inclination>90</Inclination>
+					</JackRafterCut>
+					<Marking Name="STRICHMARKIERER" Process="yes" Priority="0" ProcessID="2" ReferencePlaneID="2">
+						<StartX>500</StartX>
+						<StartY>0</StartY>
+						<Angle>90</Angle>
+						<LengthLimited>no</LengthLimited>
+						<Length>250</Length>
+						<Width>200</Width>
+						<InteriorAngle>90</InteriorAngle>
+						<Style>double</Style>
+					</Marking>
+					<Marking Name="STRICHMARKIERER" Process="yes" Priority="0" ProcessID="3" ReferencePlaneID="2">
+						<StartX>3200</StartX>
+						<StartY>0</StartY>
+						<Angle>90</Angle>
+						<LengthLimited>no</LengthLimited>
+						<Length>250</Length>
+						<Width>200</Width>
+						<InteriorAngle>90</InteriorAngle>
+						<Style>double</Style>
+					</Marking>
+					<JackRafterCut Name="SCHIFTERSCHNITT" Process="yes" Priority="0" ProcessID="4" ReferencePlaneID="2">
+						<Orientation>end</Orientation>
+						<StartX>4200</StartX>
+						<StartY>0</StartY>
+						<StartDepth>0</StartDepth>
+						<Angle>90</Angle>
+						<Inclination>90</Inclination>
+					</JackRafterCut>
+				</Processings>
+				<Shape>
+					<IndexedFaceSet convex="false" coordIndex="0 1 2 3 -1 0 4 5 1 -1 4 6 7 5 -1 6 3 2 7 -1 3 6 4 0 -1 1 5 7 2 -1">
+						<Coordinate point="0 0 0 4200 0 0 4200 0 200 0 0 200 0 250 0 4200 250 0 0 250 200 4200 250 200"/>
+					</IndexedFaceSet>
+				</Shape>
+			</Part>
+			<Part SingleMemberNumber="1" AssemblyNumber="" OrderNumber="1" Designation="Dck-Balken" Annotation="101" Storey="BG2" Group="00" Package="" Material="" TimberGrade="" QualityGrade="" Count="1" Length="4200" Height="250" Width="200" PlaningLength="0" Weight="0" ProcessingQuality="automatic" StoreyType="ceiling" ElementNumber="00" Layer="0" ModuleNumber="BST = 00000;;">
+				<Transformations>
+					<Transformation GUID="{59648118-A013-47BC-B5C6-925ADF8DD296}">
+						<Position>
+							<ReferencePoint X="0" Y="1900" Z="-250"/>
+							<XVector X="1" Y="0" Z="0"/>
+							<YVector X="0" Y="0" Z="1"/>
+						</Position>
+					</Transformation>
+				</Transformations>
+				<GrainDirection X="1" Y="0" Z="0" Align="no"/>
+				<ReferenceSide Side="3" Align="no"/>
+				<Processings>
+					<JackRafterCut Name="SCHIFTERSCHNITT" Process="yes" Priority="0" ProcessID="1" ReferencePlaneID="2">
+						<Orientation>start</Orientation>
+						<StartX>0</StartX>
+						<StartY>0</StartY>
+						<StartDepth>0</StartDepth>
+						<Angle>90</Angle>
+						<Inclination>90</Inclination>
+					</JackRafterCut>
+					<Marking Name="STRICHMARKIERER" Process="yes" Priority="0" ProcessID="2" ReferencePlaneID="4">
+						<StartX>500</StartX>
+						<StartY>0</StartY>
+						<Angle>90</Angle>
+						<LengthLimited>no</LengthLimited>
+						<Length>250</Length>
+						<Width>200</Width>
+						<InteriorAngle>90</InteriorAngle>
+						<Style>double</Style>
+					</Marking>
+					<Marking Name="STRICHMARKIERER" Process="yes" Priority="0" ProcessID="3" ReferencePlaneID="4">
+						<StartX>3200</StartX>
+						<StartY>0</StartY>
+						<Angle>90</Angle>
+						<LengthLimited>no</LengthLimited>
+						<Length>250</Length>
+						<Width>200</Width>
+						<InteriorAngle>90</InteriorAngle>
+						<Style>double</Style>
+					</Marking>
+					<JackRafterCut Name="SCHIFTERSCHNITT" Process="yes" Priority="0" ProcessID="4" ReferencePlaneID="2">
+						<Orientation>end</Orientation>
+						<StartX>4200</StartX>
+						<StartY>0</StartY>
+						<StartDepth>0</StartDepth>
+						<Angle>90</Angle>
+						<Inclination>90</Inclination>
+					</JackRafterCut>
+				</Processings>
+				<Shape>
+					<IndexedFaceSet convex="false" coordIndex="0 1 2 3 -1 0 4 5 1 -1 4 6 7 5 -1 6 3 2 7 -1 3 6 4 0 -1 1 5 7 2 -1">
+						<Coordinate point="0 0 0 4200 0 0 4200 0 200 0 0 200 0 250 0 4200 250 0 0 250 200 4200 250 200"/>
+					</IndexedFaceSet>
+				</Shape>
+			</Part>
+			<Part SingleMemberNumber="2" AssemblyNumber="" OrderNumber="2" Designation="Dck-Balken" Annotation="102" Storey="BG2" Group="00" Package="" Material="" TimberGrade="" QualityGrade="" Count="1" Length="1500" Height="250" Width="200" PlaningLength="0" Weight="0" ProcessingQuality="automatic" StoreyType="ceiling" ElementNumber="00" Layer="0" ModuleNumber="BST = 00000;;">
+				<Transformations>
+					<Transformation GUID="{2AEADD60-299D-4001-839C-E98BA9432AB0}">
+						<Position>
+							<ReferencePoint X="500" Y="200" Z="-250"/>
+							<XVector X="0" Y="1" Z="0"/>
+							<YVector X="0" Y="0" Z="1"/>
+						</Position>
+					</Transformation>
+				</Transformations>
+				<GrainDirection X="1" Y="0" Z="0" Align="no"/>
+				<ReferenceSide Side="3" Align="no"/>
+				<Processings>
+					<JackRafterCut Name="SCHIFTERSCHNITT" Process="yes" Priority="0" ProcessID="1" ReferencePlaneID="2">
+						<Orientation>start</Orientation>
+						<StartX>0</StartX>
+						<StartY>0</StartY>
+						<StartDepth>0</StartDepth>
+						<Angle>90</Angle>
+						<Inclination>90</Inclination>
+					</JackRafterCut>
+					<JackRafterCut Name="SCHIFTERSCHNITT" Process="yes" Priority="0" ProcessID="2" ReferencePlaneID="2">
+						<Orientation>end</Orientation>
+						<StartX>1500</StartX>
+						<StartY>0</StartY>
+						<StartDepth>0</StartDepth>
+						<Angle>90</Angle>
+						<Inclination>90</Inclination>
+					</JackRafterCut>
+				</Processings>
+				<Shape>
+					<IndexedFaceSet convex="false" coordIndex="0 1 2 3 -1 0 4 5 1 -1 4 6 7 5 -1 6 3 2 7 -1 3 6 4 0 -1 1 5 7 2 -1">
+						<Coordinate point="0 0 0 1500 0 0 1500 0 200 0 0 200 0 250 0 1500 250 0 0 250 200 1500 250 200"/>
+					</IndexedFaceSet>
+				</Shape>
+			</Part>
+			<Part SingleMemberNumber="3" AssemblyNumber="" OrderNumber="3" Designation="Dck-Balken" Annotation="103" Storey="BG2" Group="00" Package="" Material="" TimberGrade="" QualityGrade="" Count="1" Length="1500" Height="250" Width="200" PlaningLength="0" Weight="0" ProcessingQuality="automatic" StoreyType="ceiling" ElementNumber="00" Layer="0" ModuleNumber="BST = 00000;;">
+				<Transformations>
+					<Transformation GUID="{7DC6EC8F-6AAA-4D0C-A22B-00DFF4EAEE0B}">
+						<Position>
+							<ReferencePoint X="3200" Y="200" Z="-250"/>
+							<XVector X="0" Y="1" Z="0"/>
+							<YVector X="0" Y="0" Z="1"/>
+						</Position>
+					</Transformation>
+				</Transformations>
+				<GrainDirection X="1" Y="0" Z="0" Align="no"/>
+				<ReferenceSide Side="3" Align="no"/>
+				<Processings>
+					<JackRafterCut Name="SCHIFTERSCHNITT" Process="yes" Priority="0" ProcessID="1" ReferencePlaneID="2">
+						<Orientation>start</Orientation>
+						<StartX>0</StartX>
+						<StartY>0</StartY>
+						<StartDepth>0</StartDepth>
+						<Angle>90</Angle>
+						<Inclination>90</Inclination>
+					</JackRafterCut>
+					<JackRafterCut Name="SCHIFTERSCHNITT" Process="yes" Priority="0" ProcessID="2" ReferencePlaneID="2">
+						<Orientation>end</Orientation>
+						<StartX>1500</StartX>
+						<StartY>0</StartY>
+						<StartDepth>0</StartDepth>
+						<Angle>90</Angle>
+						<Inclination>90</Inclination>
+					</JackRafterCut>
+				</Processings>
+				<Shape>
+					<IndexedFaceSet convex="false" coordIndex="0 1 2 3 -1 0 4 5 1 -1 4 6 7 5 -1 6 3 2 7 -1 3 6 4 0 -1 1 5 7 2 -1">
+						<Coordinate point="0 0 0 1500 0 0 1500 0 200 0 0 200 0 250 0 1500 250 0 0 250 200 1500 250 200"/>
+					</IndexedFaceSet>
+				</Shape>
+			</Part>
+		</Parts>
+	</Project>
+</BTLx>
